@@ -10,15 +10,15 @@ import java.awt.Rectangle;
 import java.util.Iterator;
 import java.util.List;
 
-import DemoGame.DIR;
-import DemoGame.Player;
-import DemoGame.Target;
+
 import SceneDemo.Scene1;
 import SceneDemo.Scene2;
 import edu.utc.game.Scene;
 import edu.utc.game.SimpleMenu;
 import edu.utc.game.Sound;
+public class Skeleton extends DemoGame{
 
+<<<<<<< HEAD
 
 
 
@@ -27,10 +27,14 @@ import edu.utc.game.Sound;
 public class DemoGame extends Game implements Scene {
 	
 	private static java.util.Random rand=new java.util.Random();
+=======
 	
-	public static void main(String[] args)
-	{
+}
 	
+>>>>>>> 431cc276ef9316077f300fee4c3c3992c13a0baa
+	
+	
+<<<<<<< HEAD
 		// construct a DemoGame object and launch the game loop
 		// DemoGame game = new DemoGame();
 		// game.gameLoop();
@@ -301,3 +305,5 @@ public class DemoGame extends Game implements Scene {
 	}
 	
 	
+=======
+>>>>>>> 431cc276ef9316077f300fee4c3c3992c13a0baa
