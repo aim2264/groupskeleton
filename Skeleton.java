@@ -19,10 +19,14 @@ import edu.utc.game.Scene;
 import edu.utc.game.SimpleMenu;
 import edu.utc.game.Sound;
 
+
+
+
+
+
 public class DemoGame extends Game implements Scene {
 	
 	private static java.util.Random rand=new java.util.Random();
-
 	
 	public static void main(String[] args)
 	{
@@ -32,6 +36,7 @@ public class DemoGame extends Game implements Scene {
 		// game.gameLoop();
 		
 		private static java.util.Random rand=new java.util.Random();
+		
 
 		
 		public static void main(String[] args)
@@ -114,6 +119,7 @@ public class DemoGame extends Game implements Scene {
 				}
 			}
 			
+						
 			// if all targets have been destroyed, spawn some more
 			if (targets.isEmpty()) {
 				spawnTargets(10);
@@ -288,18 +294,10 @@ public class DemoGame extends Game implements Scene {
 			scene2=new Scene2(scene1);
 			scene1.setScene(scene2);
 			this.setScene(scene1);
+			
 		}
 		
 		
-		
-		
-		
-		
-		SimpleMenu menu = new SimpleMenu();
-		menu.addItem(new SimpleMenu.SelectableText(20, 20, 20, 20, "Launch Game", 1, 0, 0, 1, 1, 1), game);
-		menu.addItem(new SimpleMenu.SelectableText(20, 60, 20, 20, "Exit", 1, 0, 0, 1, 1, 1), null);
-		menu.select(0);
-
-		game.setScene(menu);
-		game.gameLoop();
 	}
+	
+	
