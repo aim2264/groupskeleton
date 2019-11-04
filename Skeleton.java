@@ -11,11 +11,6 @@ import java.util.Iterator;
 import java.util.List;
 
 
-import SceneDemo.Scene1;
-import SceneDemo.Scene2;
-import edu.utc.game.Scene;
-import edu.utc.game.SimpleMenu;
-import edu.utc.game.Sound;
 public class Skeleton extends DemoGame{
 
 	
